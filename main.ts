@@ -1,5 +1,5 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.setPosition(100, 100)
+    mySprite.vy = -200
 })
 let mySprite: Sprite = null
 tiles.setCurrentTilemap(tilemap`level1`)
